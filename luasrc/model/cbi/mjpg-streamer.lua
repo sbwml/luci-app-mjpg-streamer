@@ -157,8 +157,8 @@ function _start_stream() {
         }
 
 	img = document.getElementById('video_preview');
-	//img.src = 'http://' + login + location.hostname + ':' + port + '/?action=snapshot';
-	img.src = '/webcam/';
+	img.src = 'http://' + login + location.hostname + ':' + port + '/?action=snapshot';
+	//img.src = '/webcam/';
 }
 
 function start_stream() {
