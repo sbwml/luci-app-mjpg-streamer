@@ -1,6 +1,7 @@
 {
 	"admin/services/mjpg-streamer": {
 		"title": "MJPG-streamer",
+		"order": 9999,
 		"action": {
 			"type": "cbi",
 			"path": "mjpg-streamer",
